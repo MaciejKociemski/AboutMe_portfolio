@@ -19,12 +19,11 @@ const link5 = document.getElementById("link5");
 
 addScrollListener(link1, ".header");
 addScrollListener(link2, ".header", 1);
-addScrollListener(link3, ".header",3);
+addScrollListener(link3, ".header", 3);
 addScrollListener(link4, ".header", 2);
 addScrollListener(link4, ".header", 4);
 
-
 function openMenu() {
-    const nav = document.querySelector('nav');
-    nav.classList.toggle('open');
+  const nav = document.querySelector("nav");
+  nav.classList.toggle("open");
 }
