@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" class="">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" class="">
     <title>Portfolio_AboutMe</title>
 </head>
@@ -21,10 +22,15 @@
         <ul class="nav-links">
             <li class="link"><a href="#"></a>Home</li>
             <li id="link1" class="link"><a href="#"></a>Features</li>
-            <li id="link2" class="link"><a href="#"></a>Pricing</li>
-            <li id="link3" class="link"><a href="#"></a>About</li>
+            <li id="link2" class="link"><a href="#"></a>Portfolio</li>
+            <li id="link3" class="link"><a href="#"></a>Pricing</li>
+            <li id="link4" class="link"><a href="#"></a>Feedback</li>
+            <li id="link5" class="link"><a href="#"></a>About</li>
         </ul>
         <button class="btn">Here me</button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class="ri-menu-line"></i>
+        </button>
     </nav>
     <header class="container">
         <div class="content">
@@ -38,7 +44,7 @@
             <button class="btn">Get Started</button>
         </div>
         <div class="image">
-            <img class="image-header" src="./images/header.jpg" alt="header">
+            <img class="image-header" src="./images/header.jpg" alt="my workplace">
         </div>
     </header>
 
@@ -87,6 +93,175 @@
 
         </div>
     </section>
+
+<section class="container">
+    <h2 class="header">PORTFOLIO</h2>
+    <div class="portfolio" id="portfolio">
+<!-- <div class="header"> -->
+    
+   
+<!-- </div> -->
+
+<div class="portfolio-items">
+    <div class="item">
+        <img src="./images/pr1.png" alt="screen from first
+         project">
+        <div class="info">
+           <h4>Phonebook</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quibusdam!</p>
+            <a href="#">view in a github<i class="ri-github-line"></i></a>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="./images/pr2.png" alt="screen from second project">
+        <div class="info">
+            <h4>Movies</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quibusdam!</p>
+            <a href="#">view in a github<i class="ri-github-line"></i></a>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="./images/pr3.png" alt="screen from 3d project">
+        <div class="info">
+            <h4>Filmoteka</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quibusdam!</p>
+            <a href="#">view in a github<i class="ri-github-line"></i></a>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="./images/pr4.png" alt="screen from 4th project">
+        <div class="info">
+           <h4>Icecream</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quibusdam!</p>
+            <a href="#">view in a github<i class="ri-github-line"></i></a>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="./images/pr5.png" alt="screen from 5th project">
+        <div class="info">
+            <h4>WebStudio</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quibusdam!</p>
+            <a href="#">view in a github<i class="ri-github-line"></i></a>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="./images/pr6.png" alt="screen from 6th project">
+        <div class="info">
+            
+            <h4>Image Finder</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quibusdam!</p>
+            <a href="#">view in a github<i class="ri-github-line"></i></a>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+
+<section>
+    <div class="skills">
+        <div class="left">
+            <div class="info">
+                <h3>What my skills included?</h3>
+                <p>I have been intensively involved in programming for 1.5 years. I can create websites, provide
+                    solutions, apply in
+                    practice what I have recently learned, and continuously improve my skills. Throughout my life, I
+                    have also acquired many other skills, which I also showcase.
+                </p>
+            </div><a href="./cv_about/index.html">
+            <button class="hire-btn" >Hire Me</button></a>
+        </div>
+        <div class="right">
+            <div class="item" title="HTML5"><i class="ri-html5-line"></i></div>
+            <div class="item" title="CSS3"><i class="ri-css3-line"></i></div>
+            <div class="item" title="JavaScript"><i class='bx bxl-javascript'></i></div>
+            <div class="item" title="Git"><i class="ri-git-merge-line"></i></div>
+            <div class="item" title="MongoDB"><i class='bx bxl-mongodb'></i></div>
+            <div class="item" title="jQuery"><i class='bx bxl-jquery'></i></div>
+            <div class="item" title="React"><i class='bx bxl-react'></i></div>
+            <div class="item" title="Redux"><i class='bx bxl-redux'></i></div>
+            <div class="item" title="Firebase"><i class='bx bxl-firebase'></i></div>
+            <div class="item" title="Node.js"><i class='bx bxl-nodejs'></i></div>
+            <div class="item" title="MongoDB"><i class='bx bxl-mongodb'></i></div>
+            <div class="item" title="Figma"><i class='bx bxl-figma'></i></div>
+            <div class="item" title="Trello"><i class='bx bxl-trello'></i></div>
+            <div class="item" title="Visual Studio"><i class='bx bxl-visual-studio'></i></div>
+            <div class="item" title="Analysis"><i class='bx bxs-analyse'></i></div>
+            <div class="item" title="Data"><i class='bx bx-data'></i></div>
+            <div class="item" title="Excel"><i class="ri-file-excel-line"></i></div>
+            <div class="item" title="Word"><i class="ri-file-word-line"></i></div>
+            <div class="item" title="Presentation"><i class="ri-presentation-line"></i></div>
+            <div class="item" title="Customer Service"><i class="ri-customer-service-line"></i></div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <div class="feedback header" id="feedback">
+        <!-- <h5>Clients Review</h5> -->
+        <h3>FEEDBACK</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                   <i class="ri-star-line"></i>
+                   <i class="ri-star-line"></i>
+                   <i class="ri-star-line"></i>
+                   <i class="ri-star-line"></i>
+                   <i class="ri-star-line"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, provident?</p>
+                <div class="user">
+                    <img class="customer-feedback-img" src="user1" alt="user photo" width="10px">
+                    <div class="info">
+                        <h5>Janko Muzykant</h5>
+                        <h3>medme</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                   <i class="ri-star-line"></i>
+                   <i class="ri-star-line"></i>
+                   <i class="ri-star-line"></i>
+                   <i class="ri-star-line"></i>
+                   <i class="ri-star-line"></i>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, provident?</p>
+                <div class="user">
+                    <img class="customer-feedback-img" src="user1" alt="user photo" width="10px">
+                    <div class="info">
+                        <h5>Janko Muzykant</h5>
+                        <h3>medme</h3>
+                    </div>
+                </div>
+            </div><div class="item">
+                <div class="rating">
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                <i class="ri-star-line"></i>
+                    
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur, provident?</p>
+                <div class="user">
+                    <img class="customer-feedback-img" src="user1.png" alt="user photo">
+                    <div class="info">
+                        <h5>Janko Muzykant</h5>
+                        <h3>medme</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
     <section class="container">
         <h2 class="header">PROJECT PRICING PLANS</h2>
         <p class="sub-header">
@@ -94,7 +269,7 @@
             code types
         </p>
 
-        <div class="pricing">
+        <div class="pricing" id="pricing">
             <div class="card">
                 <div class="content">
                     <h4>Basic plan</h4>
