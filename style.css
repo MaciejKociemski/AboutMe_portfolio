@@ -13,6 +13,8 @@
   --instagram-color: #bd3bd8;
   --social-gray-color: #bebaba;
   --social-darkgray-color: #979393;
+  --lightyellow-color:#eff0c5;
+  --darkyellow-color:#f9ef84;
 }
 
 * {
@@ -205,6 +207,7 @@ section .header {
   background-color: hsl(270, 50%, 98%);
   border-color: #e0b7ea;
   color: var(--logo-color);
+ 
 }
 
 .features .card span {
@@ -298,20 +301,19 @@ section .header {
   color: var(--hover-color);
 }
 
-.portfolio .portfolio-items .item .info .other{
-text-align: right;
-font-size: 0.7rem;
-color: var(--logo-color);}
-
-.portfolio .portfolio-items .item .info .other:hover {
-  
-  color: var(--instagram-color);
-  
+.portfolio .portfolio-items .item .info .other {
+  text-align: right;
+  font-size: 0.7rem;
+  color: var(--logo-color);
 }
 
-.more{display: none;}
+.portfolio .portfolio-items .item .info .other:hover {
+  color: var(--instagram-color);
+}
 
-
+.more {
+  display: none;
+}
 
 .portfolio .portfolio-items .item .info a i {
   margin-left: 5px;
@@ -330,7 +332,7 @@ color: var(--logo-color);}
   text-align: justify;
   display: flex;
   justify-content: space-around;
-  padding: 30px 80px;
+  /* padding: 30px 80px; */
 }
 
 .skills .left {
@@ -459,7 +461,7 @@ color: var(--logo-color);}
 footer {
   position: relative;
   display: grid;
-  grid-template-columns: 400px repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
@@ -568,7 +570,9 @@ footer .column > a:hover {
 .feedback .customers {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
+/*   
+  padding: 20px 100px; */
   gap: 40px;
 }
 
@@ -578,20 +582,16 @@ footer .column > a:hover {
   gap: 20px;
   border: 2px solid var(--pricing-card-color);
   border-radius: 10px;
-  padding: 20px;
+  /* padding: 20px; */
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-/* 
-.customer-feedback-img{
-    width: 20px;
-    filter: blur(5px);
-} */
-
 .feedback .customers .item .rating {
+    padding: 10px;
   color: #000;
   font-size: 12px;
+  
 }
 
 .feedback .customers .item:hover {
@@ -599,9 +599,27 @@ footer .column > a:hover {
   background-color: var(--hover-color);
 }
 
+.ideas .customers .item:hover {
+  border-color: var(--lightyellow-color);
+  background-color: var(--darkyellow-color);
+}
+
 .feedback .customers .item p {
   line-height: 22px;
   font-size: 12px;
+  padding: 5px;
+  line-height: 2rem;
+  
+}
+
+
+ .ideas-btn{
+    padding: 0.5rem 0.5rem;
+  font-size: 12px;
+  color: var(--logo-color);
+  background-color: #fff;
+  border: 1px solid var(--logo-color);
+  border-radius: 5rem;
 }
 
 .feedback .customers .item .user {
@@ -628,9 +646,6 @@ footer .column > a:hover {
   font-size: 13px;
   font-weight: 600;
 }
-
-
-
 
 #menuButton {
   padding: 0.5rem 0.5rem;
@@ -664,9 +679,8 @@ footer .column > a:hover {
     font-size: 0.85rem;
   }
 
-  .feedback .customers { 
-    grid-template-columns: repeat(1,3fr);
-    
+  .feedback .customers {
+    grid-template-columns: repeat(1, 3fr);
   }
   .header .image {
     grid-area: 1/1/2/2;
@@ -676,6 +690,7 @@ footer .column > a:hover {
   }
   .portfolio-items {
     grid-template-columns: repeat(2, 3fr);
+    
   }
 
   .pricing {
@@ -707,6 +722,9 @@ footer .column > a:hover {
   .portfolio-items {
     grid-template-columns: repeat(1, 4fr);
   }
+.skills .left{
+    padding: 0px 40px 0px 0px;
+}
 
   .skills .right {
     grid-template-columns: repeat(2, 10fr);
@@ -717,6 +735,6 @@ footer .column > a:hover {
   }
 
   footer {
-    grid-template-columns: 1fr 265px;
+    grid-template-columns: 1fr;
   }
 }
