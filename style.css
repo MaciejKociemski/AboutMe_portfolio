@@ -13,8 +13,11 @@
   --instagram-color: #bd3bd8;
   --social-gray-color: #bebaba;
   --social-darkgray-color: #979393;
-  --lightyellow-color:#eff0c5;
-  --darkyellow-color:#f9ef84;
+  --lightyellow-color: #eff0c5;
+  --darkyellow-color: #f9ef84;
+  --inspiration-box-color: #ebe7e7;
+  --card-hover-color: #f3ebfa;
+  --card-color: #faf7fc;
 }
 
 * {
@@ -114,8 +117,8 @@ nav.open ul {
 .blur {
   position: absolute;
 
-  box-shadow: 0 0 100px 40px var(--logo-color);
-  z-index: -100;
+  box-shadow: 0 0 300px 100px var(--logo-color);
+  z-index: 100;
 }
 
 header {
@@ -196,7 +199,7 @@ section .header {
 }
 
 .features .card {
-  background-color: hsl(274, 57%, 95%);
+  background-color: var(--card-color);
   padding: 1rem;
   border: 2px solid transparent;
   border-radius: 5px;
@@ -204,10 +207,9 @@ section .header {
 }
 
 .features .card:hover {
-  background-color: hsl(270, 50%, 98%);
-  border-color: #e0b7ea;
+  background-color: var(--card-hover-color);
+  border-color: var(--card-color);
   color: var(--logo-color);
- 
 }
 
 .features .card span {
@@ -254,7 +256,7 @@ section .header {
 }
 
 .portfolio-items .item {
-  background-color: rgb(235, 231, 231);
+  background-color: var(--pricing-card-color-hover);
   border-radius: 10px;
   border-bottom: 4px solid transparent;
   cursor: pointer;
@@ -262,7 +264,7 @@ section .header {
   transition: all 0.3s ease;
 }
 .portfolio .portfolio-items .item:hover {
-  background-color: var(--pricing-card-color-hover);
+  background-color: var(--inspiration-box-color);
 }
 
 .portfolio .portfolio-items .item .info h4 {
@@ -351,10 +353,10 @@ section .header {
   font-size: 0.8rem;
 }
 
-.skills .left button {
+.skills .left .button {
   margin-top: 30px;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 0.5rem;
   color: #fff;
   background-color: var(--logo-color);
   border-radius: 5px;
@@ -362,7 +364,7 @@ section .header {
   transition: all 0.3s ease;
 }
 
-.skills .left button:hover {
+.skills .left .button:hover {
   background-color: var(--hover-color);
   color: var(--logo-color);
 }
@@ -571,8 +573,6 @@ footer .column > a:hover {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-/*   
-  padding: 20px 100px; */
   gap: 40px;
 }
 
@@ -580,28 +580,27 @@ footer .column > a:hover {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  border: 2px solid var(--pricing-card-color);
+  border: 2px solid var(--inspiration-box-color);
   border-radius: 10px;
-  /* padding: 20px; */
+  background-color: var(--card-color);
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .feedback .customers .item .rating {
-    padding: 10px;
+  padding: 10px;
   color: #000;
   font-size: 12px;
-  
 }
 
 .feedback .customers .item:hover {
-  border-color: var(--hover-color);
-  background-color: var(--hover-color);
+  border-color: var(--pricing-card-color-hover);
+  background-color: var(--card-hover-color);
 }
 
 .ideas .customers .item:hover {
-  border-color: var(--lightyellow-color);
-  background-color: var(--darkyellow-color);
+  border-color: var(--card-hover-color);
+  background-color: var(--card-hover-color);
 }
 
 .feedback .customers .item p {
@@ -609,12 +608,10 @@ footer .column > a:hover {
   font-size: 12px;
   padding: 5px;
   line-height: 2rem;
-  
 }
 
-
- .ideas-btn{
-    padding: 0.5rem 0.5rem;
+.ideas-btn {
+  padding: 0.5rem 0.5rem;
   font-size: 12px;
   color: var(--logo-color);
   background-color: #fff;
@@ -659,7 +656,41 @@ footer .column > a:hover {
 #menuButton:hover {
   cursor: pointer;
   color: var(--pricing-card-color);
-  background-color: var(--instagram-color);
+  background-color: var(--logo-color);
+}
+
+.inspiration {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(5, 4fr);
+  align-items: center;
+  gap: 2rem;
+  background-color: rgb(239, 239, 232, 50%);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.inspiration .inspiration-element {
+  border: 1px solid var(--pricing-card-color);
+  background: var(--pricing-card-color-hover);
+  /* filter: blur(1px); */
+  border-radius: 15px;
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+.inspiration .inspiration-element:hover {
+  cursor: pointer;
+  background-color: var(--card-hover-color);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+.inspiration .inspiration-element p {
+  color: var(--logo-color);
+  font-weight: 300;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 900px) {
@@ -690,7 +721,6 @@ footer .column > a:hover {
   }
   .portfolio-items {
     grid-template-columns: repeat(2, 3fr);
-    
   }
 
   .pricing {
@@ -703,6 +733,10 @@ footer .column > a:hover {
 
   #menuButton {
     display: flex;
+  }
+
+  .inspiration {
+    grid-template-columns: repeat(2, 10fr);
   }
 }
 
@@ -722,19 +756,27 @@ footer .column > a:hover {
   .portfolio-items {
     grid-template-columns: repeat(1, 4fr);
   }
-.skills .left{
+  .skills .left {
     padding: 0px 40px 0px 0px;
-}
+  }
 
   .skills .right {
     grid-template-columns: repeat(2, 10fr);
     gap: 10px;
+  }
+
+  .feedback {
+    margin-top: 10rem;
   }
   .pricing {
     grid-template-columns: repeat(1, 1fr);
   }
 
   footer {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container .inspiration {
+    grid-template-columns: repeat(2, 20fr);
+    /* justify-content: center; */
   }
 }
