@@ -30,7 +30,6 @@ function openMenu() {
   nav.classList.toggle("open");
 }
 
-
 document.addEventListener("DOMContentLoaded", function () {
   const scrollToTopButton = document.getElementById("scrollToTopButton");
 
@@ -51,4 +50,61 @@ document.addEventListener("DOMContentLoaded", function () {
       behavior: "smooth",
     });
   });
+});
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const emailForm = document.getElementById("emailForm");
+//   const emailInput = document.getElementById("emailInput");
+
+//   emailForm.addEventListener("submit", function (event) {
+//     event.preventDefault();
+
+//     if (validateEmail(emailInput.value)) {
+//       alert("Form submitted successfully!");
+//       // Tutaj możesz dodać kod obsługi poprawnego formularza
+//     } else {
+//       alert("Invalid email address. Please enter a valid email.");
+//     }
+//   });
+
+//   function validateEmail(email) {
+//     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+//     return emailRegex.test(email);
+//   }
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const emailForm = document.getElementById("emailForm");
+  const emailInput = document.getElementById("emailInput");
+
+  emailForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    if (validateEmail(emailInput.value)) {
+      Swal.fire({
+        icon: "success",
+        title: "Success!",
+        //   width: "300",
+        toast: true,
+        position: "top-end",
+        timer: 1300,
+
+        text: "Your email is valid.",
+      });
+    } else {
+      Swal.fire({
+        toast: true,
+        icon: "error",
+        width: "300",
+        text: "Please enter a valid email address.",
+        position: "top-end",
+        timer: 1500,
+      });
+    }
+  });
+
+  function validateEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
 });

@@ -6,9 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" class="">
+   
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" class="">
+    
     <title>Portfolio_AboutMe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.2/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.2/dist/sweetalert2.all.min.js"></script>
+
 </head>
 
 <body>
@@ -39,10 +44,13 @@
             <span class="blur"></span>
             <span class="blur"></span>
             <h4>Craft Your Website Like an Expert</h4>
-            <h1>Hi, I`m <span>Maciej</span>, Web Developer</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magnam aliquam quisquam odio
-                minima maxime, sapiente alias nam nobis excepturi quam quaerat, rerum nemo, quibusdam suscipit
-                cupiditate illum nisi vel?</p>
+            <h1>Hi, <span>I`m</span> an aspiring junior</h1>
+            <p>The site is a dynamic and visually appealing personal portfolio showcasing the skills and projects of a web developer.
+            
+            It showcases various projects with photos, descriptions and links to GitHub.
+            It demonstrates skills, technologies and tools that the owner is no stranger to.
+            He presents creative concepts such as photo sales, marketplace and insurance services in individual sections, and
+            introduces different membership levels and their functions.</p>
             <button class="btn">Get Started</button>
         </div>
         <div class="image">
@@ -487,12 +495,12 @@
             </div>
             <div class="inspiration-element">
                 <a href="https://boxicons.com">
-                    <p>high quality web icons</p>
+                    <p>hq web icons</p>
                 </a>
             </div>
             <div class="inspiration-element">
                 <a href="https://remixicon.com">
-                    <p>Remix icon 4.1.0</p>
+                    <p>Remix icon</p>
                 </a>
             </div>
             <div class="inspiration-element">
@@ -587,9 +595,9 @@
         </div>
         <div class="contact-form">
 
-            <form>
-                <input type="email" placeholder="Your email address">
-                <button><i class='bx bxl-telegram'></i></button>
+            <form id="emailForm">
+                <input  id="emailInput" placeholder="Your email address">
+                <button type="submit"><i class='bx bxl-telegram'></i></button>
             </form>
         </div>
     </footer>
