@@ -704,7 +704,7 @@ footer .column > a:hover {
 .scroll-to-top{
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 50px;
     background-color: var(--card-hover-color-color);
     color: var(--logo-color);
     border: none;
@@ -844,4 +844,6 @@ form button:hover{
     grid-template-columns: repeat(2, 20fr);
     /* justify-content: center; */
   }
+
+  
 }
