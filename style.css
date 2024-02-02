@@ -49,7 +49,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: rem;
 }
 
 .nav-logo {
@@ -60,7 +60,7 @@ nav {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 nav.open .nav-logo {
   display: none;
