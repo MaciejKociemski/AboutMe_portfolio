@@ -117,7 +117,7 @@ nav.open ul {
 .blur {
   position: absolute;
 
-  box-shadow: 0 0 300px 100px var(--logo-color);
+  box-shadow: 0 0 300px 50px var(--logo-color);
   z-index: 100;
 }
 
