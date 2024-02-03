@@ -1,6 +1,3 @@
-
-
-
 function scrollToElement(elementSelector, instance = 0) {
   const elements = document.querySelectorAll(elementSelector);
   if (elements.length > instance) {
@@ -112,8 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-
-
 document.addEventListener("DOMContentLoaded", function () {
   const darkmode = new Darkmode();
 
@@ -126,4 +121,3 @@ document.addEventListener("DOMContentLoaded", function () {
       document.body.classList.toggle("dark-mode", !isDarkMode);
     });
 });
-

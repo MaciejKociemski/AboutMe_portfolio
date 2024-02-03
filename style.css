@@ -7,7 +7,7 @@
   --pricing-card-color: #faf3e8;
   --pricing-card-color-hover: #fffefb;
   --linkedin-color: #005ebf;
-  --github-color:#201f1f;
+  --github-color: #201f1f;
   --facebook-color: #3c6dbd;
   --yt-color: #b63d3d;
   --instagram-color: #bd3bd8;
@@ -31,7 +31,6 @@
 img {
   width: 100%;
   display: flex;
- 
 }
 
 a {
@@ -41,6 +40,48 @@ a {
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff !important;
+}
+
+.darkmode {
+  position: fixed;
+  top: 10%;
+  left: 50px;
+  background-color: var(--card-hover-color-color);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: heartbeat 3s infinite;
+  z-index: 10;
+}
+
+.darkmode i {
+  font-size: 30px;
+  color: var(--logo-color);
+}
+
+.darkmode:hover {
+  width: 50px;
+  height: 50px;
+  background-color: var(--hover-color);
+  color: var(--card-color);
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1.05);
+  }
 }
 
 nav {
@@ -115,8 +156,9 @@ nav.open ul {
   padding: 5rem 2rem;
 }
 
-.container .content p{color:var(--social-darkgray-color);}
-
+.container .content p {
+  color: var(--social-darkgray-color);
+}
 
 .blur {
   position: absolute;
@@ -757,34 +799,6 @@ form button {
 form button:hover {
   background-color: var(--hover-color);
 }
-
-.darkmode{
-    position: fixed;
-  top: 10%;
-  left: 50px;
-  background-color: var(--card-hover-color-color);
-  color: var(--logo-color);
-  border: none;
-  border-radius: 50%;
-  padding: 10px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  z-index: 10;
- 
-}
-
-.darkmode i{font-size: 30px;
-color: var(--logo-color);}
-
-.darkmode:hover{
-    width: 50px;
-    height: 50px;
-    background-color: var(--hover-color);
-    color: var(--card-color);
-}
-
-body.dark-mode{background-color: red;}
 
 @media (max-width: 900px) {
   .nav-links {
