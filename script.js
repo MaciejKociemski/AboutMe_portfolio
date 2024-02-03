@@ -1,3 +1,6 @@
+
+
+
 function scrollToElement(elementSelector, instance = 0) {
   const elements = document.querySelectorAll(elementSelector);
   if (elements.length > instance) {
@@ -108,3 +111,19 @@ document.addEventListener("DOMContentLoaded", function () {
     return emailRegex.test(email);
   }
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const darkmode = new Darkmode();
+
+  document
+    .getElementById("darkmode-toggle")
+    .addEventListener("click", function () {
+      darkmode.toggle();
+
+      const isDarkMode = document.body.classList.contains("dark-mode");
+      document.body.classList.toggle("dark-mode", !isDarkMode);
+    });
+});
+
