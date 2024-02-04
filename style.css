@@ -719,8 +719,8 @@ footer .column > a:hover {
   align-items: center;
   gap: 2rem;
   background-color: rgb(239, 239, 232, 50%);
-  padding: 5rem;
-  border-radius: 20px;
+  /* padding: 5rem; */
+  border-radius: 20px
 }
 
 .inspiration .inspiration-element {
@@ -731,6 +731,7 @@ footer .column > a:hover {
   text-align: center;
   text-decoration: none;
   padding: 1rem 2rem;
+  
 }
 
 .inspiration .inspiration-element:hover {
@@ -847,7 +848,7 @@ form button:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 468px) {
   header .image::before {
     display: none;
   }
@@ -879,10 +880,16 @@ form button:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  footer {
-    grid-template-columns: repeat(2, 1fr);
+ footer {
+    grid-template-columns: repeat(1, 3fr);
   }
-  .container .inspiration {
+
+
+  .inspiration {
+   
+    width: 100%;
+/* display: flex; */
+/* justify-content: space-between; */
     grid-template-columns: repeat(2, 20fr);
     /* justify-content: center; */
   }

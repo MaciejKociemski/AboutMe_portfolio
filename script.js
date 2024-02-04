@@ -84,10 +84,9 @@ document.addEventListener("DOMContentLoaded", function () {
       Swal.fire({
         icon: "success",
         title: "Success!",
-        //   width: "300",
         toast: true,
-        position: "top-end",
-        timer: 1300,
+        position: "center",
+        timer: 2000,
 
         text: "Your email is valid.",
       });
@@ -97,8 +96,8 @@ document.addEventListener("DOMContentLoaded", function () {
         icon: "error",
         width: "300",
         text: "Please enter a valid email address.",
-        position: "top-end",
-        timer: 1500,
+        position: "center",
+        timer: 2000,
       });
     }
   });
