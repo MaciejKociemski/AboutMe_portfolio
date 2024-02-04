@@ -720,7 +720,7 @@ footer .column > a:hover {
   gap: 2rem;
   background-color: rgb(239, 239, 232, 50%);
   /* padding: 5rem; */
-  border-radius: 20px
+  border-radius: 20px;
 }
 
 .inspiration .inspiration-element {
@@ -731,7 +731,6 @@ footer .column > a:hover {
   text-align: center;
   text-decoration: none;
   padding: 1rem 2rem;
-  
 }
 
 .inspiration .inspiration-element:hover {
@@ -880,17 +879,12 @@ form button:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 
- footer {
+  footer {
     grid-template-columns: repeat(1, 3fr);
   }
 
-
   .inspiration {
-   
     width: 100%;
-/* display: flex; */
-/* justify-content: space-between; */
     grid-template-columns: repeat(2, 20fr);
-    /* justify-content: center; */
   }
 }

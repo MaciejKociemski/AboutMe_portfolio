@@ -52,27 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   const emailForm = document.getElementById("emailForm");
-//   const emailInput = document.getElementById("emailInput");
-
-//   emailForm.addEventListener("submit", function (event) {
-//     event.preventDefault();
-
-//     if (validateEmail(emailInput.value)) {
-//       alert("Form submitted successfully!");
-//       // Tutaj możesz dodać kod obsługi poprawnego formularza
-//     } else {
-//       alert("Invalid email address. Please enter a valid email.");
-//     }
-//   });
-
-//   function validateEmail(email) {
-//     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-//     return emailRegex.test(email);
-//   }
-// });
-
 document.addEventListener("DOMContentLoaded", function () {
   const emailForm = document.getElementById("emailForm");
   const emailInput = document.getElementById("emailInput");
