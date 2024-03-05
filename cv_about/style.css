@@ -16,6 +16,13 @@ body {
   background: #fff;
 }
 
+span {
+  color: #fff;
+}
+
+.descript_ {
+  color: #0077b5;
+}
 .wrapper-footer {
   display: flex;
   flex-direction: row-reverse;
@@ -23,6 +30,7 @@ body {
   width: 1200px;
   margin: 0 auto 0 auto;
   background: #ffffff;
+  margin-top: 20px;
 }
 
 .text-footer {
@@ -33,7 +41,7 @@ body {
 }
 
 aside {
-  width: 370px;
+  width: 400px;
   background: #2f1423f2;
   height: auto;
 }
@@ -42,7 +50,7 @@ aside {
   border: transparent;
   margin-top: 10px;
 
-  width: 250px;
+  width: 300px;
   height: 130px;
 
   object-fit: contain;
@@ -53,7 +61,7 @@ aside {
 }
 
 .underline {
-  border-bottom: 3px solid #fff;
+  border-bottom: 1px solid #fff;
   width: auto;
   margin-right: 20px;
 }
@@ -71,8 +79,8 @@ aside {
 
 .list-secondary {
   font-size: 13px;
-  line-height: 24px;
-  margin-left: 0px;
+  line-height: 26px;
+  margin-left: 20px;
   padding-left: 0px;
   list-style-position: inside;
 }
@@ -94,31 +102,37 @@ aside {
 }
 
 .contact-block {
+  margin-top: 30px;
   margin-left: 20px;
 }
 
 .skills-block {
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .education-block {
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .licences-block {
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .languages-block {
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .interest-block {
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 main {
-  padding: 10px 100px 10px 100px;
+  padding: 5px 100px 0px 100px;
   height: auto;
 }
 
@@ -130,23 +144,24 @@ main {
   font-size: 13px;
   font-weight: 700;
   line-height: 17px;
-  border-bottom: 4px solid;
+  border-bottom: 2px solid;
   padding-bottom: 5px;
 }
 
 .underline {
-  border-bottom: 4px solid;
-  padding-bottom: 5px;
+  border-bottom: 2px solid;
+  /* padding-bottom: 5px; */
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 55px;
+  line-height: 10px;
   margin: 0px;
 }
 
 h2 {
+  font-size: 16px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -158,9 +173,9 @@ h3 {
 
 .description {
   color: #595959;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
   text-align: justify;
 }
 
@@ -200,15 +215,16 @@ h3 {
 }
 
 .header-primary {
-  padding-top: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 18px;
 }
 
 .job-name {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -242,13 +258,13 @@ h3 {
   font-weight: 700;
   line-height: 20px;
 }
-
+/* 
 .other {
   color: #ffffff;
   font-size: 13px;
-  line-height: 24px;
+  line-height: 20px;
   padding-right: 30px;
-}
+} */
 
 .projects-description {
   display: flex;
@@ -256,9 +272,9 @@ h3 {
 }
 
 .project-item {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 14px;
 }
 
 .list-primary-text {
