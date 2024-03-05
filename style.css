@@ -757,7 +757,8 @@ footer .column > a:hover {
   font-size: 20px;
   cursor: pointer;
   display: none;
-  transition: all 0.3s ease;
+ transition: all 0.3s ease;
+  animation: heartbeat 3s infinite;
 }
 .scroll-to-top:hover {
   background-color: var(--hover-color);
