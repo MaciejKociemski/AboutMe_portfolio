@@ -1,0 +1,57 @@
+{
+  "en": {
+    "home": "Home",
+    "features": "Features",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "feedback": "Feedback",
+    "ideas": "Ideas",
+    "inspire": "Inspire",
+    "craft_your_website": "Craft Your Website Like an Expert",
+    "aspiring_junior": "Hi, I'm an aspiring junior",
+    "site_description": "The site is a dynamic and visually appealing personal portfolio showcasing the skills and projects of a web developer. It showcases various projects with photos, descriptions and links to GitHub. It demonstrates skills, technologies and tools that the owner is no stranger to. He presents creative concepts such as photo sales, marketplace and insurance services in individual sections, and introduces different membership levels and their functions.",
+    "features_header": "OUR FEATURES",
+    "free_tutorials": "Free Tutorials",
+    "free_tutorials_description": "here you will reach free solutions to basic problems (will be done)",
+    "fix_your_bugs": "Fix Your Bugs",
+    "fix_your_bugs_description": "If you have any problem with the codes? Write to me.",
+    "history": "History",
+    "history_description": "look into my github , this is the place to go",
+    "cooperation": "Cooperation",
+    "cooperation_description": "Work, You can also find my personal CV here at",
+    "join_now": "Join Now",
+    "skills_title": "What my skills included?",
+    "skills_description": "I have been programming intensively for ~2 years. I can create websites, think about how to provide solutions, how to put into practice what I have recently learned, and constantly improve my skills. Throughout my professional life I have also acquired many other skills, which I also present, the icons represent tools I have already had the opportunity to work on",
+    "project_1":"Phonebook",
+    "project_1_description":"The final version of the application includes features such as registration, login, user authorization and updates, along with functionality for managing a collection of private contacts. It incorporates both backend development and routing."
+  },
+      
+    
+    
+  
+  "pl": {
+    "home": "Strona główna",
+    "features": "Funkcje",
+    "portfolio": "Portfolio",
+    "pricing": "Cennik",
+    "feedback": "Opinie",
+    "ideas": "Pomysły",
+    "inspire": "Inspiracje",
+    "craft_your_website": "Stwórz swoją stronę jak ekspert",
+    "aspiring_junior": "Cześć, jestem początkującym juniorem",
+    "site_description": "Ta strona to dynamiczne i wizualnie atrakcyjne portfolio osobiste, prezentujące umiejętności i projekty programisty internetowego. Pokazuje różne projekty z zdjęciami, opisami i linkami do GitHuba. Demonstruje umiejętności, technologie i narzędzia, które właścicielowi nie są obce a przynajmniej z nich korzystał. Przedstawia kreatywne koncepcje, takie jak sprzedaż zdjęć, rynek i usługi ubezpieczeniowe w poszczególnych sekcjach, oraz wprowadza różne poziomy cennika i jego zakres.",
+    "features_header": "NASZE FUNKCJE",
+    "free_tutorials": "Darmowe Tutoriale",
+    "free_tutorials_description": "tutaj znajdziesz darmowe rozwiązania podstawowych problemów (będą dostępne)",
+    "fix_your_bugs": "Napraw Swoje Błędy",
+    "fix_your_bugs_description": "Masz jakiś problem z kodami? Napisz do mnie.",
+    "history": "Historia",
+    "history_description": "spójrz na mój GitHub, to jest miejsce do którego należy się udać",
+    "cooperation": "Współpraca",
+    "cooperation_description": "Pracuj, tutaj znajdziesz również moje osobiste CV",
+    "join_now": "sprawdź teraz",
+    "skills_title": "Co wchodzi w moje umiejętności?",
+    "skills_description": "Intensywnie programuję od ~2 lat. Potrafię tworzyć strony internetowe, myśleć o tym, jak dostarczać rozwiązania, jak wcielić w życie to, czego się ostatnio nauczyłem i stale doskonalić swoje umiejętności. Przez całe życie zawodowe nabyłem również wiele innych umiejętności, które również prezentuję, ikony reprezentują narzędzia, na których miałem już okazję pracować",
+    "project_1":"Ksiąz"
+  }
+}

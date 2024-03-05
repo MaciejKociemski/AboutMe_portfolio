@@ -12,10 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.2/dist/sweetalert2.all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <title>site under-Construction</title>
-
+    <script src="./js/changelang.js"></script>
 </head>
 
 <body>
+    <button class="btn_change_language" onclick="changeLanguage('en')">En</button>
+    <button class="btn_change_language" onclick="changeLanguage('pl')">Pl</button>
     <button id="darkmode-toggle" class="darkmode">
         <i class="ri-contrast-2-line">
         </i>
@@ -46,7 +48,7 @@
         <div class="content">
             <span class="blur"></span>
             <span class="blur"></span>
-            <h4>Craft Your Website Like an Expert</h4>
+            <h4>I could do something for you</h4>
             <h1>Hi, <span>I`m</span> an aspiring junior</h1>
             <p>The site is a dynamic and visually appealing personal portfolio showcasing the skills and projects of a
                 web developer.
@@ -100,7 +102,7 @@
                     Work, You
                     can also find my personal CV here at <a href="./cv_about/index.html">About</a>
 
-                    <!-- pamietać o dokonczeniu cv -->
+                   
                 </p>
                 <a href="./cv_about/index.html">Join Now<i class="ri-arrow-right-line"></i></a>
 
@@ -110,7 +112,7 @@
     </section>
 
     <section class="container">
-        <h2 class="header">PORTFOLIO </h2>
+        <h2 id="portfolio_header" class="header">PORTFOLIO </h2>
         <div class="portfolio" id="portfolio">
 
             <div class="portfolio-items">
@@ -119,7 +121,7 @@
                         <img src="./images/pr1.png" alt="screen from first
                  project" title="if you click you will see the application Phonebook"></a>
                     <div class="info">
-                        <h4>Phonebook</h4>
+                        <h4 id="title" class="project_1">Phonebook</h4>
                         <p>The final version of the application includes features such as registration, login, user
                             authorization and updates,
                             along with functionality for managing a collection of private contacts. It incorporates both
@@ -221,9 +223,13 @@
             <div class="left">
                 <div class="info">
                     <h3>What my skills included?</h3>
-                    <p>I have been programming extensively for ~2 years. I can create websites, think about how to
-                        provide solutions, how to put into practice what I have recently learned, and constantly improve
-                        my skills. I have also acquired many other skills throughout my life, which I also showcase.
+                    <p>I have been programming intensively for ~2 years. I can create websites, think about how to
+                        provide solutions, how to
+                        put into practice what I have recently learned, and constantly improve my skills. Throughout my
+                        professional life I have
+                        also acquired many other skills, which I also present, the icons represent tools I have already
+                        had the opportunity to
+                        work on.
                     </p>
                 </div><a class="hire-btn button" href="./cv_about/index.html">
                     Hire Me</a>
@@ -609,7 +615,7 @@
         <div class="column">
             <h4>Contact</h4>
             <a href="mailto:digiorderbusiness@gmail.com">Contact:digiorderbusiness@gmail.com</a>
-            <a href="./pages/privatypolicy.html">Privaty Policy</a>
+            <a href="./pages/privacypolicy.html">Privacy Policy</a>
             <a href="./pages/terms.html">Terms & Conditions</a>
         </div>
         <div class="contact-form">
