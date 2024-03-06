@@ -523,6 +523,7 @@ section .header {
 }
 .todo{
   color: var(--facebook-color);
+  font-size: 0.6rem;
 }
 
 footer {
