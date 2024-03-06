@@ -21,9 +21,8 @@
     "cooperation_description": "Work, You can also find my personal CV here at",
     "join_now": "Join Now",
     "skills_title": "What my skills included?",
-    "skills_description": "I have been programming intensively for ~2 years. I can create websites, think about how to provide solutions, how to put into practice what I have recently learned, and constantly improve my skills. Throughout my professional life I have also acquired many other skills, which I also present, the icons represent tools I have already had the opportunity to work on",
-    "project_1":"Phonebook",
-    "project_1_description":"The final version of the application includes features such as registration, login, user authorization and updates, along with functionality for managing a collection of private contacts. It incorporates both backend development and routing."
+    "skills_description": "I have been programming intensively for ~2 years. I can create websites, think about how to provide solutions, how to put into practice what I have recently learned, and constantly improve my skills. Throughout my professional life I have also acquired many other skills, which I also present, the icons represent tools I have already had the opportunity to work on"
+   
   },
       
     
@@ -51,7 +50,7 @@
     "cooperation_description": "Pracuj, tutaj znajdziesz również moje osobiste CV",
     "join_now": "sprawdź teraz",
     "skills_title": "Co wchodzi w moje umiejętności?",
-    "skills_description": "Intensywnie programuję od ~2 lat. Potrafię tworzyć strony internetowe, myśleć o tym, jak dostarczać rozwiązania, jak wcielić w życie to, czego się ostatnio nauczyłem i stale doskonalić swoje umiejętności. Przez całe życie zawodowe nabyłem również wiele innych umiejętności, które również prezentuję, ikony reprezentują narzędzia, na których miałem już okazję pracować",
-    "project_1":"Ksiąz"
+    "skills_description": "Zajmuję się programowaniem od ~2 lat. Wiem jak tworzyć strony internetowe, myśleć o tym, jak dostarczać rozwiązania, jak wcielić w życie to, czego się ostatnio nauczyłem i stale doskonalić swoje umiejętności. Przez całe życie zawodowe nabyłem również wiele innych umiejętności, które również prezentuję, ikony reprezentują narzędzia, na których miałem już okazję pracować"
+   
   }
 }
