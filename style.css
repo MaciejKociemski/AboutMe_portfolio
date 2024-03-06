@@ -193,7 +193,7 @@ header {
 }
 
 .image-header {
-  filter: blur(5px);
+  filter: blur(1px);
   border-radius: 5px;
 }
 
