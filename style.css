@@ -44,7 +44,7 @@ body {
 
 .darkmode {
   position: fixed;
-  top: 10%;
+  top: 15%;
   left: 50px;
   background-color: var(--card-hover-color-color);
   border: none;
