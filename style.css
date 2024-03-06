@@ -816,7 +816,7 @@ form button:hover {
   background-color: var(--hover-color);
 }
 
-@media (width: 900px) {
+@media (max-width: 900px) {
   .nav-links {
     display: none;
   }
@@ -855,6 +855,7 @@ form button:hover {
   }
 
   #menuButton {
+    
     display: flex;
   }
 
@@ -942,6 +943,10 @@ form button:hover {
   font-weight: bold;
 }
 
+.modalChangeBtn{
+  padding: 5px 5px;
+  border-radius: 10px;
+}
 .close:hover,
 .close:focus {
   color: black;

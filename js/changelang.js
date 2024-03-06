@@ -36,6 +36,8 @@ function changeLanguage(language) {
         texts.skills_title;
       document.querySelectorAll(".skills .left .info p ")[0].textContent =
           texts.skills_description;
+      
+
         
     })
     .catch((error) => console.error("Error fetching texts:", error));
