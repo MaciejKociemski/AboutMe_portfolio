@@ -855,7 +855,6 @@ form button:hover {
   }
 
   #menuButton {
-    
     display: flex;
   }
 
@@ -865,7 +864,6 @@ form button:hover {
 }
 
 @media (max-width: 468px) {
-
   .image-header {
     display: none;
   }
@@ -943,7 +941,7 @@ form button:hover {
   font-weight: bold;
 }
 
-.modalChangeBtn{
+.modalChangeBtn {
   padding: 5px 5px;
   border-radius: 10px;
 }
