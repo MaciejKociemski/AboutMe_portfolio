@@ -82,7 +82,7 @@ aside {
   line-height: 26px;
   margin-left: 20px;
   padding-left: 0px;
-  list-style-position: inside;
+  /* list-style-position: inside; */
 }
 
 .list-third {
